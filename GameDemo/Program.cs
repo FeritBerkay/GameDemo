@@ -33,6 +33,7 @@ namespace GameDemo
             salesManager.PackageUpdate(hall);
             salesManager.DeletePackage(hall);
             Console.WriteLine("##############################################################");
+            
             salesManager.BoughtFor(start, burak);
             salesManager.defined(start, burak);
             salesManager.StudentDiscount(start, burak);
