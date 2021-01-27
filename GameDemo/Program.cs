@@ -20,6 +20,7 @@ namespace GameDemo
             accountManager.Update(kemal);
             accountManager.Register(kemal);
             Console.WriteLine("##############################################################");
+            
             accountManager.Verify(burak);
             accountManager.Delete(burak);
             accountManager.Update(burak);
